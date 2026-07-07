@@ -1,0 +1,46 @@
+# Data — never commit raw or processed transaction data
+# (directory-level .gitignore in data/ handles this with gitkeep exceptions)
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.env
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Experiment tracking
+mlruns/
+mlflow.db
+
+# Secrets / credentials
+.env
+*.env
+config/secrets.yaml
+db_config.yaml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/

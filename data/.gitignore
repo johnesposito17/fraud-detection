@@ -1,0 +1,5 @@
+# Ignore all data files but keep directory structure
+raw/*
+processed/*
+!raw/.gitkeep
+!processed/.gitkeep
