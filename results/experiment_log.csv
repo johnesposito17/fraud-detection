@@ -1,0 +1,7 @@
+label,pr_auc,f1_at_0.5,f1_optimal,optimal_threshold,cost_at_0.5,cost_at_optimal_t,min_cost,cost_opt_threshold,tp_default,fp_default,fn_default,tn_default,tp_optimal,fp_optimal,fn_optimal,tn_optimal,fn_cost,fp_cost,train_time_s,imbalance
+LR_no_handling,0.7363,0.6833,0.7234,0.1528,17020,12075,7135.0,0.01,41,4,34,56883,51,15,24,56872,500,5,0.22,none
+LR_class_weight,0.7558,0.0696,0.5979,0.99,12200,8805,6365.0,0.9211,69,1840,6,55047,58,61,17,56826,500,5,0.42,class_weight
+LR_SMOTE,0.7643,0.0736,0.6,0.99,12030,7825,6800.0,0.9063,68,1706,7,55181,60,65,15,56822,500,5,0.96,smote
+LR_undersample,0.7237,0.077,0.5592,0.99,11240,8385,7025.0,0.9752,69,1648,6,55239,59,77,16,56810,500,5,0.03,undersample
+RF_class_weight,0.8198,0.8485,0.8571,0.4581,9505,9005,5630.0,0.0445,56,1,19,56886,57,1,18,56886,500,5,25.98,class_weight
+XGB_class_weight,0.794,0.8058,0.8088,0.7093,9540,10030,7560.0,0.01,56,8,19,56879,55,6,20,56881,500,5,2.84,class_weight

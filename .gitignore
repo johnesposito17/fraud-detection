@@ -41,6 +41,10 @@ Thumbs.db
 *.swp
 *.swo
 
+# Model artifacts (large binaries)
+results/*.pkl
+results/*.joblib
+
 # Logs
 *.log
 logs/
